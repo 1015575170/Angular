@@ -19,4 +19,8 @@ export class AppComponent {
   onBtnClicked(){
     console.log('hahahah');
   }
+
+  onInput(evt: Event){
+    this.title = (<HTMLInputElement>evt.target).value;
+  }
 }
