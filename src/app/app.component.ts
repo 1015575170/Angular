@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(){
     this.title = 'Hello';
-    this.imgUrl = './assets/imgs/ng-book2.png';
+    this.imgUrl = '/assets/imgs/ng-book2.png';
     this.url = 'http://www.baidu.com';
   }
 
